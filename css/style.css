@@ -42,5 +42,37 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
 }
+
+.testimonial {
+    background-color: #FAFAFA;
+    padding: 2rem;
+    text-align: center;
+}
+  
+.testimonial p {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 2rem;
+}
+  
+.contact a {
+    display: inline-block;
+    margin: 1rem;
+}
+  
+.contact img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+  
+.contact img:hover {
+    transform: scale(1.2);
+}
+  
